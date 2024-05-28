@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 8%)
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 12%);
+    height: 500px;
+    width: 400px;
+    /* align-content: center; */
+    /* align-self: center; */
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+.name{
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+.cityName{
+    font-size: x-small;
+    color: hsl(75, 94%, 57%);
+}
+.info{
+    font-size: small;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.bts{
+    margin-top: 20px;
+    /* margin-left: 70px;
+    margin-right: 50px; */
+    /* padding: 5px 100px; */
+    height: 30px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+
+}
+.attribution{
+    color: hsl(0, 0%, 100%);
+
+}
